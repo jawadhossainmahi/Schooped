@@ -1,0 +1,191 @@
+:root {
+  --primary-color-: #FDA900;
+  --deem-primary-color: #976500;
+  --section-bg-1-: #ededed;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.publishing_year {
+  font-size: 2rem;
+  font-weight: bold;
+  background: var(--primary-color-);
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.socials {
+  font-size: 2rem;
+  font-weight: bold;
+  background: var(--primary-color-);
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socials a {
+  cursor: pointer;
+  color: black;
+}
+
+.gallery_section_main_div {
+  padding-top: 5rem;
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+}
+
+.gallery_swiper {
+  height: 50rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#footer {
+  background-color: black;
+}
+
+#footer .copyright-text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+
+
+#character_section {
+  padding: 0 10%;
+}
+
+#character_section .characters_image img {
+  width: 20rem;
+  height: 22rem;
+  border-radius: 2rem;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+
+#character_section .single_characters {
+  display: flex;
+  gap: 3rem;
+  /* background-color: var(--section-bg-1-); */
+  padding: 3rem;
+}
+
+#character_section .mySwiperMain {
+  height: fit-content !important;
+  text-align: left !important;
+}
+
+.single_characters .character_title {
+  text-align: left;
+  margin-bottom: 1.3rem;
+}
+
+.single_characters p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.download_section_container{
+  padding: 0 10%;
+}
+.download_section_container img{
+  height: 30rem;
+  width: 30rem;
+}
+@media (max-width:1128px) {
+  html{
+    font-size: 12px;
+  }
+  #character_section .single_characters {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #character_section .characters_image img {
+    text-align: center;
+    margin: auto;
+  }
+}
