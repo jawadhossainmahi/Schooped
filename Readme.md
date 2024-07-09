@@ -17,3 +17,7 @@ The "Scooped" website provides information about the thrilling adventure film "S
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/scooped-website.git
+2. **Change directory to scooped-website**
+   ```bash
+   cd scooped-website
+3. **open index.html**
