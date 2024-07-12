@@ -189,3 +189,8 @@ body {
     margin: auto;
   }
 }
+.banner-image{
+  height: 100vh;
+}
+@media (max-width:1922px) {
+}
