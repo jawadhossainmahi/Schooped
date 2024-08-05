@@ -192,5 +192,8 @@ body {
 .banner-image{
   height: 100vh;
 }
-@media (max-width:1922px) {
+@media (max-width:500px) {
+  .banner-image{
+    height: 20rem !important;
+  }
 }
